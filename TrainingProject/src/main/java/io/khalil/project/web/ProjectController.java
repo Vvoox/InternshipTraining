@@ -55,10 +55,10 @@ public class ProjectController {
         return projectService.getProjectByIdentifier(projectIdentifier);
     }
 
-    @PutMapping("/{id}")
-    public Project uptadeProject(Project project){
-        
-    }
+//    @PutMapping("/{id}")
+//    public Project uptadeProject(Project project){
+//
+//    }
 
 
 }
