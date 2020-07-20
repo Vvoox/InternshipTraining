@@ -45,4 +45,6 @@ public class Project {
     @JsonFormat(pattern = "dd-MM-yyyy")
     private Date modifiedAt;
 
+    @One
+
 }
